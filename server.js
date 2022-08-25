@@ -1,4 +1,3 @@
-var student = require("./db"); // db object
 var bodyParser = require("body-parser"); // handling json
 const express = require("express"); // server
 const cors = require("cors"); // infrastructure allowing request from/to different domains

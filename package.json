@@ -1,23 +1,19 @@
 {
-  "name": "subibotproj",
+  "name": "back-end",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "expo": "~46.0.9",
-    "expo-status-bar": "~1.4.0",
-    "mongodb": "^4.9.0",
-    "react": "18.0.0",
-    "react-hook-form": "^7.34.2",
-    "react-native": "0.69.4"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.9"
-  },
-  "private": true
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
 }
